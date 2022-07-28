@@ -17,7 +17,7 @@ if respond_to?(:register_svg_icon)
 end
 
 add_admin_route "admin.landing_pages.title", "landing-pages"
-gem "jquery-rails", "4.4.0"
+gem "jquery-rails", "4.5.0"
 
 config = Rails.application.config
 plugin_asset_path = "#{Rails.root}/plugins/discourse-landing-pages/assets"
